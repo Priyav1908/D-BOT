@@ -5,7 +5,7 @@ import asyncio
 import json
 import os
 import websockets
-from google import genai
+from Groq import groq
 import base64
 
 from llama_index.core import (
