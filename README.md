@@ -35,11 +35,9 @@ Ensure Python 3.8+ is installed, then run:
 pip install -U google-genai==0.5.0 llama-index==0.12.11 llama-index-llms-gemini==0.4.3 llama-index-embeddings-gemini==0.3.1 websockets
 ```
 
-### **3. Set Up Google Gemini API Key**
-Replace `"YOUR_GEMINI_API_KEY"` with your actual Google API key:
-```sh
-export GOOGLE_API_KEY="YOUR_GEMINI_API_KEY"
-```
+### **3. Set Up API Key**
+Replace `"OLLAMA_API_KEY"` with your actual OLLAMA API key:
+
 
 ### **4. Run the WebSocket Server**
 ```sh
