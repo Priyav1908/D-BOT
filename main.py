@@ -1,5 +1,5 @@
 ##
-## pip install -u google-genai==0.5.0 llama-index==0.12.11 llama-index-llms-gemini==0.4.3 llama-index-embeddings-gemini==0.3.1 websockets
+## pip install -u llama-index==0.12.11  pip install ollama pip install groq websockets
 ##
 import asyncio
 import json
