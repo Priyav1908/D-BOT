@@ -20,9 +20,9 @@ from llama_index.embeddings.gemini import GeminiEmbedding
 from llama_index.llms.gemini import Gemini
      
 # Load API key from environment
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyAxIViwKcIP7OfjbDOaAQaN3caNKNxLV7Y'
-gemini_api_key = os.environ['GOOGLE_API_KEY']
-MODEL = "gemini-2.0-flash-exp"  # use your model ID
+os.environ['API_KEY'] = 'YOU_OLLAMA_API_KEYS'
+ollama_api_key = os.environ['API_KEY']
+MODEL = "groq"  # use your model ID
 
 text_embedding_model = "text-embedding-004"
 
