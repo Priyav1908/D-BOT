@@ -4,7 +4,7 @@
 
 ## **Introduction**  
 
-D-BOTT is a real-time document query system that allows users to upload PDFs and interact with them via **text or voice commands**. It utilizes **Google Gemini AI** for processing queries and **LlamaIndex** for document retrieval, enabling intelligent responses based on indexed documents.
+D-BOTT is a real-time document query system that allows users to upload PDFs and interact with them via **text or voice commands**. It utilizes **OLLAMA** for processing queries and **LlamaIndex** for document retrieval, enabling intelligent responses based on indexed documents.
 
 ---
 
@@ -32,7 +32,7 @@ cd d-bott
 ### **2. Install Dependencies**
 Ensure Python 3.8+ is installed, then run:
 ```sh
-pip install -U google-genai==0.5.0 llama-index==0.12.11 llama-index-llms-gemini==0.4.3 llama-index-embeddings-gemini==0.3.1 websockets
+pip install  llama-index==0.12.11 
 ```
 
 ### **3. Set Up API Key**
